@@ -150,7 +150,7 @@ app.get('/item',(req,res)=>{
 });
 let mailOptions = {
         from: "nodemailer contact <02balajicse@gmail.com>",
-        to: 'nlsn.raj95@gmail.com',
+        to: 'poovarasanl@kartantech.com,nlsn.raj95@gmail.com',
         subject: "Mail Test",
         text: "Hello",
         html: output
